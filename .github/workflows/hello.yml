@@ -6,4 +6,4 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "this is my first robot"
+      - run: exit 1
