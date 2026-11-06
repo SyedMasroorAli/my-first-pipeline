@@ -6,4 +6,11 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-       - run: echo "Salam! Mera pehla robot chal gaya"
+      - name: Step 1 - Code check
+        run: echo "Code check kar raha hoon"
+
+      - name: Step 2 - Tests
+        run: echo "Tests chala raha hoon"
+
+      - name: Step 3 - Deploy
+        run: echo "Deploy kar raha hoon"
